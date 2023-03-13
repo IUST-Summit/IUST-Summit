@@ -1958,6 +1958,7 @@ section {
 
 .hero .info {
   position: absolute;
+  padding-top: 10%;
   inset: 0;
   z-index: 2;
 }
@@ -1972,7 +1973,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 700;
   position: relative;
 }
