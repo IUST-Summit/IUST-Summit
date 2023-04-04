@@ -2083,7 +2083,7 @@ section {
 
 .hero .carousel {
   width: 100%;
-  min-height: 100vh;
+  min-height: 115vh;
 }
 
 .hero .carousel-item {
@@ -2106,7 +2106,7 @@ section {
 
 .hero .info {
   position: absolute;
-  padding-top: 10%;
+  padding-top: 20%;
   inset: 0;
   z-index: 2;
   flex: 1;
@@ -2114,7 +2114,6 @@ section {
   display: flex;
   align-items: center;
 }
-
 
 /* @media (max-width: 768px) {
   .hero .info {
