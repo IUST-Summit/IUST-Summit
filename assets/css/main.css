@@ -8,8 +8,8 @@
 
 @media (max-width: 400px) {
   .logo1, .logo2{
-    width: 100%;
-    height: auto;
+    width: 500%;
+    /* height: auto; */
     /* display:none; */
   }
 }
@@ -341,8 +341,8 @@ section {
 }
 
 .header .logo img {
-  height: 4.5rem;
-  width : 4.5rem;
+  height: 6rem;
+  width : 6rem;
 }
 
 .header .logo h1 {
