@@ -29,7 +29,19 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <style>
+    .element-to-show {
+    display: none;
+    }
+    @media (max-width: 767px) {
+      .element-to-hide {
+        display: none;
+      }
+      .element-to-show {
+        display: block;
+      }
+    }
+  </style>
 
 </head>
 
@@ -43,16 +55,20 @@
         <a href="index.html" id="ibutton" class="logo d-flex align-items-center" style="margin-right: 1rem;">
 
         <img src="assets/img/iustlogo.png" alt=""style="
-        margin-left: 1.5rem; " class="logo1">
+        margin-left: 1.5rem; " class="logo1 element-to-hide">
         <!--<h2>ISLAMIC UNIVERSITY OF SCIENCE AND TECHNOLOGY<span>.</span></h2> -->
        </a>
 
         <a href="index.html" id="sbutton" class="logo d-flex align-items-center">
         <img src="assets/img/scrslogo.png" alt=""  style="
-        margin-left:1.5rem;" class="logo2">
+        margin-left:1.5rem;" class="logo2 element-to-hide">
         <!--<h2>ISLAMIC UNIVERSITY OF SCIENCE AND TECHNOLOGY<span>.</span></h2> -->
         </a>
 
+        <a href="index.html" class="logo d-flex align-items-center" >
+          <h2 class="element-to-show">ISLAMIC UNIVERSITY OF SCIENCE AND TECHNOLOGY<span>.</span></h2>
+        </a>
+    
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list" id="nbutton"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>      
         
